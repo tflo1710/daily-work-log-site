@@ -1,19 +1,8 @@
 
-:root{--bg:#0b1220;--card:#121a2a;--text:#e7ecff;--muted:#aab4d4;--accent:#7cc4ff;--accent2:#9effb0}
-*{box-sizing:border-box}html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,'Helvetica Neue',Arial}
-.container{max-width:920px;margin:0 auto;padding:32px 20px}
-.nav{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:24px}
-.nav a{color:var(--accent);text-decoration:none;border:1px solid #234;border-radius:10px;padding:8px 12px;background:linear-gradient(180deg,#0f1830 0%, #0b1426 100%)}
-.nav a:hover{color:white;border-color:#2c6cff}
-.card{background:var(--card);border:1px solid #2a3552;border-radius:16px;padding:24px;margin:18px 0;box-shadow:0 4px 20px rgba(0,0,0,.25)}
-h1{font-size:34px;line-height:1.2;margin:0 0 12px}h2{font-size:22px;margin-top:28px}
-p,li{color:var(--muted)}footer{margin-top:32px;color:#8ba0d3}
-code,kbd{background:#0a1428;border:1px solid #243150;border-radius:6px;padding:1px 6px;color:#d7e3ff}
-.hero{display:flex;align-items:center;gap:16px;margin:12px 0 24px}
-.meta{color:#9db0da;font-size:14px}
-.cta{display:inline-block;margin-top:8px;padding:10px 14px;border-radius:10px;border:1px solid #2a7fff;background:#0c1f3f;color:#e6f0ff;text-decoration:none}
-.cta:hover{border-color:#79a7ff}
-small{color:#9db0da}
-table{border-collapse:collapse;width:100%}td,th{border:1px solid #2a3552;padding:8px}
-hr{border:0;border-top:1px solid #22314f;margin:28px 0}
-.notice{background:#0a1b34;border:1px dashed #284274;color:#bdd0ff;padding:10px 12px;border-radius:10px}
+body {background:#0b1220;color:#e7ecff;font-family:system-ui,Arial,sans-serif;margin:0;padding:0;}
+.container{max-width:900px;margin:0 auto;padding:30px;}
+.card{background:#121a2a;border:1px solid #2a3552;border-radius:12px;padding:24px;margin:20px 0;}
+a{color:#7cc4ff;text-decoration:none;}a:hover{text-decoration:underline;}
+footer{margin-top:40px;color:#8ba0d3;font-size:14px;}
+.notice{background:#0a1b34;border:1px dashed #284274;color:#bdd0ff;padding:10px 12px;border-radius:10px;}
+.nav a{color:#7cc4ff;text-decoration:none;border:1px solid #234;border-radius:8px;padding:6px 10px;}
